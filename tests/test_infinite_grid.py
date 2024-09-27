@@ -1,4 +1,4 @@
-from infinite_grid import InfiniteGrid
+from infinitegrid.infinitegrid import InfiniteGrid
 import unittest as ut
 import numpy as np
 

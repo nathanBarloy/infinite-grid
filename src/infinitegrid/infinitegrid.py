@@ -1,6 +1,7 @@
 import numpy as np
 import math
 
+__all__ = ["InfiniteGrid"]
 
 class InfiniteGrid():
 

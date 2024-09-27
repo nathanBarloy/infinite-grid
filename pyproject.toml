@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "infinitegrid"
-version = "0.1.2"
+version = "0.1.5"
 authors = [
     {name="Nathan Barloy"}
 ]
@@ -19,6 +19,11 @@ classifiers = [
 dependencies = [
     "numpy",
 ]
+
+[tool.setuptools.packages.find]
+where = ["src/infinitegrid"]
+include = ["infinitegrid"]
+
 
 [project.urls]
 Homepage = "https://github.com/nathanBarloy/infinite-grid"
